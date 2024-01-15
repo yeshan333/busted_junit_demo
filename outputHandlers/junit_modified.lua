@@ -145,7 +145,7 @@ return function(options)
     local junit_classname
     local test_case_full_name = handler.getFullName(element)
     local junit_report_package_name, test_file_name = get_junit_info(element.trace.short_src)
-    -- Jenkins CI use . to distinguish between package name and class name.
+    -- Jenkins CI Junit Plugin use the last one . to distinguish between package name and class name.
     local junit_class_name = string.gsub(test_file_name, "%.", "_")
 
     if junit_report_package_name ~= "" then
