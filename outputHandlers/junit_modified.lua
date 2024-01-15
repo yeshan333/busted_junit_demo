@@ -27,9 +27,12 @@ return function(options)
   local stack = {}
   local testcase_node
   if 'table' == type(options.arguments) then
-    -- the first argument should be the name of the xml file.
-    output_file_name = options.arguments[1]
-    enable_split_output_xml = options.arguments[2]
+    if options.arguments[1] == "true" then
+      enable_split_output_xml = true
+    else
+      -- will output to the sepcific xml file
+      output_file_name = options.arguments[1]
+    end
   end
 
   handler.suiteStart = function(suite, count, total)
@@ -74,7 +77,14 @@ return function(options)
     if enable_split_output_xml ~= nil then
       local output_string = xml.tostring(top.xml_doc, '', '\t', nil, false)
       local test_suit_file = suite['file']
-      local write_file = string.gsub(test_suit_file[1].name, "%.[^.]+$", ".xml")
+
+      local write_file
+      if test_suit_file ~= nil then
+        write_file = string.gsub(test_suit_file[1].name, "%.[^.]+$", ".xml")
+      else
+        write_file = "no_match_cases.xml"
+      end
+
       local file = io_open(write_file, 'w+b' )
       if file then
         file:write(output_string)
@@ -130,7 +140,6 @@ return function(options)
 
     return junit_report_package_name, test_file_name
   end
-
 
   handler.testStart = function(element, parent)
     local junit_classname
@@ -197,10 +206,9 @@ return function(options)
     return nil, true
   end
 
-  if enable_split_output_xml ~= nil then
+  if enable_split_output_xml == nil then
     busted.subscribe({ 'exit' }, handler.exit)
   end
-  busted.subscribe({ 'exit' }, handler.exit)
   busted.subscribe({ 'suite', 'start' }, handler.suiteStart)
   busted.subscribe({ 'suite', 'end' }, handler.suiteEnd)
   busted.subscribe({ 'test', 'start' }, handler.testStart, { predicate = handler.cancelOnPending })

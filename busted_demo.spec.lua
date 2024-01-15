@@ -1,7 +1,7 @@
 print(package.path)
 print(package.cpath)
 
-package.path = package.path .. ";src/dump_busted_struct.lua"
+-- package.path = "/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/root/.luarocks/share/lua/5.4/?.lua;/root/.luarocks/share/lua/5.4/?/init.lua;/workspaces/busted_demo/src/dump_busted_struct.lua"
 
 
 describe("Busted unit testing framework", function()
