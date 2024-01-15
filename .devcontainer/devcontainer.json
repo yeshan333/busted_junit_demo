@@ -1,0 +1,25 @@
+{
+  "name": "busted_dev",
+  "build": {
+		// Sets the run context to one level up instead of the .devcontainer folder.
+		"context": "..",
+		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+		"dockerfile": "Dockerfile"
+	},
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "eamodio.gitlens",
+        "Koihik.vscode-lua-format",
+        "dwenegar.vscode-luacheck",
+        "ms-azuretools.vscode-docker",
+        "mongodb.mongodb-vscode",
+        "sumneko.lua",
+        "ms-vscode.cpptools",
+        "iliazeus.vscode-ansi"
+      ]
+    }
+  }
+}

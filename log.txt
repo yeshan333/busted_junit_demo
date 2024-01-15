@@ -1,0 +1,3 @@
+Busted unit testing framework should be awesome should be easy to use
+Busted unit testing framework should be awesome should provide some shortcuts to common functions
+Busted unit testing framework should be awesome spies registers a new spy as a callback

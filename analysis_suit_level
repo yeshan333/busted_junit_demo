@@ -1,0 +1,384 @@
+{
+          [lazy_setup] = {
+
+          },
+          [descriptor] = suite,
+          [file] = {
+            {
+              [run] = {
+                [getTrace] = function: 0x7fa7d74aad10
+              },
+              [name] = busted_demo.spec.lua,
+              [lazy_setup] = {
+
+              },
+              [descriptor] = file,
+              [starttick] = 10688.017410141,
+              [env] = {
+                [randomize] = function: 0x7fa7d7494420
+              },
+              [attributes] = {
+                [envmode] = insulate
+              },
+              [endtick] = 10688.025475631,
+              [duration] = 0.0080654900011723,
+              [starttime] = 1705331250.0721,
+              [endtime] = 1705331250.0802,
+              [describe] = {
+                {
+                  [run] = function: 0x7fa7d74ad890,
+                  [name] = Busted unit testing framework,
+                  [lazy_setup] = {
+
+                  },
+                  [descriptor] = describe,
+                  [starttick] = 10688.019493552,
+                  [env] = {
+                    [randomize] = function: 0x7fa7d74d66d0
+                  },
+                  [duration] = 0.0059716380001191,
+                  [attributes] = {
+
+                  },
+                  [endtick] = 10688.02546519,
+                  [endtime] = 1705331250.0801,
+                  [starttime] = 1705331250.0742,
+                  [describe] = {
+                    {
+                      [run] = function: 0x7fa7d74aa980,
+                      [name] = should be awesome,
+                      [lazy_setup] = {
+
+                      },
+                      [descriptor] = describe,
+                      [starttick] = 10688.020185248,
+                      [env] = {
+                        [randomize] = function: 0x7fa7d74d5930
+                      },
+                      [duration] = 0.0052682619989355,
+                      [endtime] = 1705331250.0801,
+                      [attributes] = {
+
+                      },
+                      [endtick] = 10688.02545351,
+                      [describe] = {
+                        {
+                          [run] = function: 0x7fa7d74df120,
+                          [name] = spies,
+                          [lazy_setup] = {
+
+                          },
+                          [descriptor] = describe,
+                          [starttick] = 10688.024387409,
+                          [env] = {
+                            [randomize] = function: 0x7fa7d75b2fe0
+                          },
+                          [duration] = 0.0010498240008019,
+                          [attributes] = {
+
+                          },
+                          [endtick] = 10688.025437233,
+                          [endtime] = 1705331250.0801,
+                          [starttime] = 1705331250.0791,
+                          [it] = {
+                            {
+                              [run] = function: 0x7fa7d759e440,
+                              [name] = registers a new spy as a callback,
+                              [descriptor] = it,
+                              [starttick] = 10688.025200031,
+                              [env] = {
+                                [teardown] = function: 0x7fa7d75de2a0,
+                                [insulate] = function: 0x7fa7d75de320,
+                                [describe] = function: 0x7fa7d75ca830,
+                                [test] = function: 0x7fa7d75ca7f0,
+                                [lazy_teardown] = function: 0x7fa7d75de420,
+                                [it] = function: 0x7fa7d75de460,
+                                [randomize] = function: 0x7fa7d75de260,
+                                [spec] = function: 0x7fa7d75de4a0,
+                                [before_each] = function: 0x7fa7d75de4e0,
+                                [setup] = function: 0x7fa7d75de520,
+                                [lazy_setup] = function: 0x7fa7d75de560,
+                                [pending] = function: 0x7fa7d756b040,
+                                [after_each] = function: 0x7fa7d75de720,
+                                [strict_teardown] = function: 0x7fa7d75de760,
+                                [finally] = function: 0x7fa7d754c6e0,
+                                [strict_setup] = function: 0x7fa7d75ca870,
+                                [expose] = function: 0x7fa7d75de3e0,
+                                [context] = function: 0x7fa7d75de360
+                              },
+                              [attributes] = {
+
+                              },
+                              [endtick] = 10688.025399115,
+                              [duration] = 0.00019908400099666,
+                              [starttime] = 1705331250.0799,
+                              [endtime] = 1705331250.0801,
+                              [trace] = {
+                                [what] = Lua,
+                                [message] = registers a new spy as a callback,
+                                [lastlinedefined] = 64,
+                                [traceback] =
+stack traceback:
+	busted_demo.spec.lua:35: in function <busted_demo.spec.lua:34>
+,
+                                [currentline] = 35,
+                                [short_src] = busted_demo.spec.lua,
+                                [linedefined] = 34,
+                                [source] = @busted_demo.spec.lua
+                              }
+                            }
+                          },
+                          [trace] = {
+                            [what] = Lua,
+                            [message] = spies,
+                            [lastlinedefined] = 65,
+                            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:34: in function <busted_demo.spec.lua:8>
+,
+                            [currentline] = 34,
+                            [short_src] = busted_demo.spec.lua,
+                            [linedefined] = 8,
+                            [source] = @busted_demo.spec.lua
+                          }
+                        }
+                      },
+                      [starttime] = 1705331250.0749,
+                      [it] = {
+                        {
+                          [run] = function: 0x7fa7d74df450,
+                          [name] = should be easy to use,
+                          [descriptor] = it,
+                          [starttick] = 10688.023084694,
+                          [env] = {
+                            [teardown] = function: 0x7fa7d74d1240,
+                            [insulate] = function: 0x7fa7d74d12c0,
+                            [describe] = function: 0x7fa7d74d16c0,
+                            [test] = function: 0x7fa7d74d1680,
+                            [lazy_teardown] = function: 0x7fa7d74d13c0,
+                            [it] = function: 0x7fa7d74d1400,
+                            [randomize] = function: 0x7fa7d74d1200,
+                            [spec] = function: 0x7fa7d74d1440,
+                            [before_each] = function: 0x7fa7d74d1480,
+                            [setup] = function: 0x7fa7d74d14c0,
+                            [lazy_setup] = function: 0x7fa7d74d1500,
+                            [pending] = function: 0x7fa7d756b040,
+                            [after_each] = function: 0x7fa7d74d1600,
+                            [strict_teardown] = function: 0x7fa7d74d1640,
+                            [finally] = function: 0x7fa7d74ddf50,
+                            [strict_setup] = function: 0x7fa7d74cf770,
+                            [expose] = function: 0x7fa7d74d1380,
+                            [context] = function: 0x7fa7d74d1340
+                          },
+                          [attributes] = {
+
+                          },
+                          [endtick] = 10688.023183937,
+                          [duration] = 9.924300138664e-05,
+                          [starttime] = 1705331250.0778,
+                          [endtime] = 1705331250.0779,
+                          [trace] = {
+                            [what] = Lua,
+                            [message] = should be easy to use,
+                            [lastlinedefined] = 65,
+                            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:9: in function <busted_demo.spec.lua:8>
+,
+                            [currentline] = 9,
+                            [short_src] = busted_demo.spec.lua,
+                            [linedefined] = 8,
+                            [source] = @busted_demo.spec.lua
+                          }
+                        },
+                        {
+                          [run] = function: 0x7fa7d74df570,
+                          [name] = should have lots of features,
+                          [descriptor] = it,
+                          [starttick] = 10688.023279294,
+                          [env] = {
+                            [teardown] = function: 0x7fa7d74cd600,
+                            [insulate] = function: 0x7fa7d74cd680,
+                            [describe] = function: 0x7fa7d74ccdd0,
+                            [test] = function: 0x7fa7d74ccd90,
+                            [lazy_teardown] = function: 0x7fa7d74cd740,
+                            [it] = function: 0x7fa7d74cc990,
+                            [randomize] = function: 0x7fa7d74cd5c0,
+                            [spec] = function: 0x7fa7d74cc9d0,
+                            [before_each] = function: 0x7fa7d74cca90,
+                            [setup] = function: 0x7fa7d74ccad0,
+                            [lazy_setup] = function: 0x7fa7d74ccb90,
+                            [pending] = function: 0x7fa7d756b040,
+                            [after_each] = function: 0x7fa7d74ccc90,
+                            [strict_teardown] = function: 0x7fa7d74cccd0,
+                            [finally] = function: 0x7fa7d74f8dd0,
+                            [strict_setup] = function: 0x7fa7d74cce10,
+                            [expose] = function: 0x7fa7d74cd700,
+                            [context] = function: 0x7fa7d74cd6c0
+                          },
+                          [attributes] = {
+
+                          },
+                          [endtick] = 10688.024252134,
+                          [duration] = 0.00097284000003128,
+                          [starttime] = 1705331250.078,
+                          [endtime] = 1705331250.0789,
+                          [trace] = {
+                            [what] = Lua,
+                            [message] = should have lots of features,
+                            [lastlinedefined] = 65,
+                            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:13: in function <busted_demo.spec.lua:8>
+,
+                            [currentline] = 13,
+                            [short_src] = busted_demo.spec.lua,
+                            [linedefined] = 8,
+                            [source] = @busted_demo.spec.lua
+                          }
+                        },
+                        {
+                          [run] = function: 0x7fa7d74defa0,
+                          [name] = should provide some shortcuts to common functions,
+                          [descriptor] = it,
+                          [starttick] = 10688.024317832,
+                          [env] = {
+                            [teardown] = function: 0x7fa7d75cc400,
+                            [insulate] = function: 0x7fa7d75cc6c0,
+                            [describe] = function: 0x7fa7d75f7480,
+                            [test] = function: 0x7fa7d75f7440,
+                            [lazy_teardown] = function: 0x7fa7d75f0f10,
+                            [it] = function: 0x7fa7d75f0f50,
+                            [randomize] = function: 0x7fa7d75cc3c0,
+                            [spec] = function: 0x7fa7d75f0f90,
+                            [before_each] = function: 0x7fa7d75f7280,
+                            [setup] = function: 0x7fa7d75f7300,
+                            [lazy_setup] = function: 0x7fa7d75f7340,
+                            [pending] = function: 0x7fa7d756b040,
+                            [after_each] = function: 0x7fa7d75f73c0,
+                            [strict_teardown] = function: 0x7fa7d75f7400,
+                            [finally] = function: 0x7fa7d754b5d0,
+                            [strict_setup] = function: 0x7fa7d75f74c0,
+                            [expose] = function: 0x7fa7d75f0850,
+                            [context] = function: 0x7fa7d75cc740
+                          },
+                          [attributes] = {
+
+                          },
+                          [endtick] = 10688.024360992,
+                          [duration] = 4.3160000132048e-05,
+                          [starttime] = 1705331250.079,
+                          [endtime] = 1705331250.079,
+                          [trace] = {
+                            [what] = Lua,
+                            [message] = should provide some shortcuts to common functions,
+                            [lastlinedefined] = 65,
+                            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:30: in function <busted_demo.spec.lua:8>
+,
+                            [currentline] = 30,
+                            [short_src] = busted_demo.spec.lua,
+                            [linedefined] = 8,
+                            [source] = @busted_demo.spec.lua
+                          }
+                        }
+                      },
+                      [trace] = {
+                        [what] = Lua,
+                        [message] = should be awesome,
+                        [lastlinedefined] = 66,
+                        [traceback] =
+stack traceback:
+	busted_demo.spec.lua:8: in function <busted_demo.spec.lua:7>
+,
+                        [currentline] = 8,
+                        [short_src] = busted_demo.spec.lua,
+                        [linedefined] = 7,
+                        [source] = @busted_demo.spec.lua
+                      }
+                    }
+                  },
+                  [trace] = {
+                    [what] = main,
+                    [message] = Busted unit testing framework,
+                    [lastlinedefined] = 0,
+                    [traceback] =
+stack traceback:
+	busted_demo.spec.lua:7: in main chunk
+,
+                    [currentline] = 7,
+                    [short_src] = busted_demo.spec.lua,
+                    [linedefined] = 0,
+                    [source] = @busted_demo.spec.lua
+                  }
+                }
+              }
+            }
+          },
+          [endtime] = 1705331250.0802,
+          [attributes] = {
+
+          },
+          [endtick] = 10688.025516196,
+          [duration] = 0.0081885629988392,
+          [starttime] = 1705331250.072,
+          [starttick] = 10688.017327633,
+          [env] = {
+            [teardown] = function: 0x7fa7d7540750,
+            [insulate] = function: 0x7fa7d753d420,
+            [context] = function: 0x7fa7d75407a0,
+            [mock] = {
+              [revert] = function: 0x7fa7d7565dd0,
+              [clear] = function: 0x7fa7d7565da0,
+              [new] = function: 0x7fa7d7575f20
+            },
+            [expose] = function: 0x7fa7d753d470,
+            [lazy_teardown] = function: 0x7fa7d753e2c0,
+            [it] = function: 0x7fa7d753d650,
+            [stub] = {
+              [new] = function: 0x7fa7d75eac70
+            },
+            [spec] = function: 0x7fa7d75407f0,
+            [before_each] = function: 0x7fa7d753e040,
+            [setup] = function: 0x7fa7d7540700,
+            [lazy_setup] = function: 0x7fa7d753e130,
+            [pending] = function: 0x7fa7d753df50,
+            [after_each] = function: 0x7fa7d753e090,
+            [match] = {
+              [is_matcher] = function: 0x7fa7d753ca30,
+              [is_ref_matcher] = function: 0x7fa7d753ca70,
+              [_] = {
+                [callback] = function: 0x7fa7d759fca0,
+                [mod] = true
+              },
+              [state] = function: 0x7fa7d753c9f0
+            },
+            [spy] = {
+              [is_spy] = function: 0x7fa7d75355a0,
+              [on] = function: 0x7fa7d759f9d0,
+              [new] = function: 0x7fa7d75df850
+            },
+            [strict_teardown] = function: 0x7fa7d75406b0,
+            [assert] = {
+              [level] = function: 0x7fa7d750f000,
+              [state] = function: 0x7fa7d750ef80,
+              [_VERSION] = Luassert 1.8.0,
+              [_DESCRIPTION] = Extends Lua's built-in assertions to provide additional tests and the ability to create your own.,
+              [remove_formatter] = function: 0x7fa7d7523af0,
+              [format] = function: 0x7fa7d750efc0,
+              [add_formatter] = function: 0x7fa7d7523460,
+              [get_parameter] = function: 0x7fa7d7523b50,
+              [register] = function: 0x7fa7d7523370,
+              [get_level] = function: 0x7fa7d750f040,
+              [unregister] = function: 0x7fa7d75233a0,
+              [_COPYRIGHT] = Copyright (c) 2018 Olivine Labs, LLC.,
+              [add_spy] = function: 0x7fa7d7523b80,
+              [snapshot] = function: 0x7fa7d7523bb0,
+              [set_parameter] = function: 0x7fa7d7523b20
+            },
+            [test] = function: 0x7fa7d7540840,
+            [describe] = function: 0x7fa7d753d3d0,
+            [strict_setup] = function: 0x7fa7d753e310
+          }
+        }

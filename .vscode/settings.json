@@ -1,0 +1,29 @@
+// https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
+{
+  "Lua.diagnostics.disable": [
+    "undefined-global",
+    "lowercase-global",
+    "cast-local-type",
+    "duplicate-set-field",
+    "missing-parameter"
+  ],
+  "Lua.diagnostics.enable": true,
+  // Lua ls settings: https://luals.github.io/wiki/settings/#workspacelibrary
+  "Lua.workspace.library": [
+    "/usr/local/share/lua/5.4/busted",
+    "/usr/local/share/lua/5.4"
+  ],
+  "Lua.runtime.path": [
+    "?.lua",
+    "?/?.lua",
+    "?/init.lua",
+    "?/?.lua",
+    "/usr/local/share/lua/5.4/?.lua",
+    "/usr/local/share/lua/5.4/?/init.lua"
+  ],
+  "Lua.runtime.pathStrict": false,
+  "Lua.runtime.version": "Lua 5.4",
+  "Lua.workspace.ignoreDir": [],
+  "Lua.workspace.useGitIgnore": true,
+  "luacheck.luacheck": "luacheck"
+}

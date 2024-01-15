@@ -1,0 +1,172 @@
+{
+          [attributes] = {
+
+          },
+          [run] = function: 0x7f172ee0f450,
+          [env] = {
+            [describe] = function: 0x7f172ee00240,
+            [strict_setup] = function: 0x7f172ee002c0,
+            [context] = function: 0x7f172ee00340,
+            [after_each] = function: 0x7f172ee00380,
+            [randomize] = function: 0x7f172ee00200,
+            [lazy_setup] = function: 0x7f172ee003c0,
+            [strict_teardown] = function: 0x7f172ee00400,
+            [teardown] = function: 0x7f172ee00440,
+            [insulate] = function: 0x7f172ee00480,
+            [pending] = function: 0x7f172ee9b040,
+            [expose] = function: 0x7f172ee00500,
+            [finally] = function: 0x7f172ee0df50,
+            [spec] = function: 0x7f172edfe770,
+            [before_each] = function: 0x7f172ee00640,
+            [test] = function: 0x7f172ee00540,
+            [it] = function: 0x7f172ee00600,
+            [lazy_teardown] = function: 0x7f172ee00680,
+            [setup] = function: 0x7f172ee006c0
+          },
+          [trace] = {
+            [message] = should be easy to use,
+            [what] = Lua,
+            [linedefined] = 8,
+            [currentline] = 9,
+            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:9: in function <busted_demo.spec.lua:8>
+,
+            [source] = @busted_demo.spec.lua,
+            [short_src] = busted_demo.spec.lua,
+            [lastlinedefined] = 65
+          },
+          [descriptor] = it,
+          [starttick] = 10778.259602276,
+          [starttime] = 1705331340.3169,
+          [name] = should be easy to use
+        }
+{
+          [attributes] = {
+
+          },
+          [run] = function: 0x7f172ee0f570,
+          [env] = {
+            [describe] = function: 0x7f172ee47930,
+            [strict_setup] = function: 0x7f172ee479b0,
+            [context] = function: 0x7f172ee479f0,
+            [after_each] = function: 0x7f172ee47a30,
+            [randomize] = function: 0x7f172ee478f0,
+            [lazy_setup] = function: 0x7f172ee47a70,
+            [strict_teardown] = function: 0x7f172ee47ab0,
+            [teardown] = function: 0x7f172ee47b30,
+            [insulate] = function: 0x7f172ee47b70,
+            [pending] = function: 0x7f172ee9b040,
+            [expose] = function: 0x7f172ee47bf0,
+            [finally] = function: 0x7f172ee55380,
+            [spec] = function: 0x7f172ee47d70,
+            [before_each] = function: 0x7f172ee47cb0,
+            [test] = function: 0x7f172ee47c30,
+            [it] = function: 0x7f172ee47c70,
+            [lazy_teardown] = function: 0x7f172ee47cf0,
+            [setup] = function: 0x7f172ee47d30
+          },
+          [trace] = {
+            [message] = should have lots of features,
+            [what] = Lua,
+            [linedefined] = 8,
+            [currentline] = 13,
+            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:13: in function <busted_demo.spec.lua:8>
+,
+            [source] = @busted_demo.spec.lua,
+            [short_src] = busted_demo.spec.lua,
+            [lastlinedefined] = 65
+          },
+          [descriptor] = it,
+          [starttick] = 10778.262369092,
+          [starttime] = 1705331340.3197,
+          [name] = should have lots of features
+        }
+{
+          [attributes] = {
+
+          },
+          [run] = function: 0x7f172ee0efa0,
+          [env] = {
+            [describe] = function: 0x7f172ee9b340,
+            [strict_setup] = function: 0x7f172ee9b3c0,
+            [context] = function: 0x7f172ee9b540,
+            [after_each] = function: 0x7f172ee9b600,
+            [randomize] = function: 0x7f172ee9b200,
+            [lazy_setup] = function: 0x7f172ee9b640,
+            [strict_teardown] = function: 0x7f172ee9b6c0,
+            [teardown] = function: 0x7f172ee9b780,
+            [insulate] = function: 0x7f172ee9a020,
+            [pending] = function: 0x7f172ee9b040,
+            [expose] = function: 0x7f172ee9a420,
+            [finally] = function: 0x7f172ee4f020,
+            [spec] = function: 0x7f172ef117f0,
+            [before_each] = function: 0x7f172ee9a720,
+            [test] = function: 0x7f172ee9a460,
+            [it] = function: 0x7f172ee9a4a0,
+            [lazy_teardown] = function: 0x7f172ee9a760,
+            [setup] = function: 0x7f172ef117b0
+          },
+          [trace] = {
+            [message] = should provide some shortcuts to common functions,
+            [what] = Lua,
+            [linedefined] = 8,
+            [currentline] = 30,
+            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:30: in function <busted_demo.spec.lua:8>
+,
+            [source] = @busted_demo.spec.lua,
+            [short_src] = busted_demo.spec.lua,
+            [lastlinedefined] = 65
+          },
+          [descriptor] = it,
+          [starttick] = 10778.263973436,
+          [starttime] = 1705331340.3213,
+          [name] = should provide some shortcuts to common functions
+        }
+{
+          [attributes] = {
+
+          },
+          [run] = function: 0x7f172ee51660,
+          [env] = {
+            [describe] = function: 0x7f172eea5a70,
+            [strict_setup] = function: 0x7f172eea5af0,
+            [context] = function: 0x7f172eea5b30,
+            [after_each] = function: 0x7f172eea5bb0,
+            [randomize] = function: 0x7f172eea5a30,
+            [lazy_setup] = function: 0x7f172eea5fe0,
+            [strict_teardown] = function: 0x7f172eea6020,
+            [teardown] = function: 0x7f172eea6060,
+            [insulate] = function: 0x7f172eea60a0,
+            [pending] = function: 0x7f172ee9b040,
+            [expose] = function: 0x7f172eea6160,
+            [finally] = function: 0x7f172ee947e0,
+            [spec] = function: 0x7f172eea63a0,
+            [before_each] = function: 0x7f172eea6260,
+            [test] = function: 0x7f172eea61a0,
+            [it] = function: 0x7f172eea61e0,
+            [lazy_teardown] = function: 0x7f172eea62e0,
+            [setup] = function: 0x7f172eea6360
+          },
+          [trace] = {
+            [message] = registers a new spy as a callback,
+            [what] = Lua,
+            [linedefined] = 34,
+            [currentline] = 35,
+            [traceback] =
+stack traceback:
+	busted_demo.spec.lua:35: in function <busted_demo.spec.lua:34>
+,
+            [source] = @busted_demo.spec.lua,
+            [short_src] = busted_demo.spec.lua,
+            [lastlinedefined] = 64
+          },
+          [descriptor] = it,
+          [starttick] = 10778.265532267,
+          [starttime] = 1705331340.3229,
+          [name] = registers a new spy as a callback
+        }
