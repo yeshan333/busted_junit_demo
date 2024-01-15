@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4.0.4
+        uses: actions/checkout@v4
       - name: Publish Test Report
-        uses: mikepenz/action-junit-report@v4
+        uses: mikepenz/action-junit-report@v4.0.4
         with:
           report_paths: '**/*.xml'
           token: ${{ secrets.PROJECT_TOKEN }}
