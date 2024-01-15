@@ -1,0 +1,33 @@
+
+<testsuites errors='0' failures='1' tests='19' time='0.03' skip='0'>
+	<testsuite time='0.02' errors='0' failures='1' timestamp='2024-01-15T17:26:06' tests='19' name='Run 1 of 1' skip='0'>
+		<testcase classname='spec.busted_demo_spec_lua:9' name='Busted unit testing framework should be awesome should be easy to use' time='0.00'/>
+		<testcase classname='spec.busted_demo_spec_lua:13' name='Busted unit testing framework should be awesome should have lots of features' time='0.00'>
+			<failure>spec/busted_demo.spec.lua:27: Expected objects to be the same.
+Passed in:
+(boolean) false
+Expected:
+(boolean) true
+stack traceback:
+	spec/busted_demo.spec.lua:27: in function &lt;spec/busted_demo.spec.lua:13&gt;
+</failure>
+		</testcase>
+		<testcase classname='spec.busted_demo_spec_lua:30' name='Busted unit testing framework should be awesome should provide some shortcuts to common functions' time='0.00'/>
+		<testcase classname='spec.busted_demo_spec_lua:35' name='Busted unit testing framework should be awesome spies registers a new spy as a callback' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:25' name='SplitFilePath /path/to/file.txt dir is /path/to' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:29' name='SplitFilePath /path/to/file.txt filename is file.txt' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:33' name='SplitFilePath /path/to/file.txt extension is txt' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:40' name='SplitFilePath /another/path/to/another_file.csv dir is /another/path/to' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:44' name='SplitFilePath /another/path/to/another_file.csv filename is another_file.csv' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:48' name='SplitFilePath /another/path/to/another_file.csv extension is csv' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:55' name='SplitFilePath no_directory.txt dir is nil' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:59' name='SplitFilePath no_directory.txt filename is no_directory.txt' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:63' name='SplitFilePath no_directory.txt extension is txt' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:70' name='SplitFilePath C:\Windows\System32\notepad.exe dir is C:\Windows\System32' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:74' name='SplitFilePath C:\Windows\System32\notepad.exe filename is notepad.exe' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:78' name='SplitFilePath C:\Windows\System32\notepad.exe extension is exe' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:85' name='SplitFilePath C:\directory with spaces\file with spaces.txt dir is C:\directory with spaces' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:89' name='SplitFilePath C:\directory with spaces\file with spaces.txt filename is file with spaces.txt' time='0.00'/>
+		<testcase classname='spec.get_junit_info_spec_lua:93' name='SplitFilePath C:\directory with spaces\file with spaces.txt extension is txt' time='0.00'/>
+	</testsuite>
+</testsuites>
