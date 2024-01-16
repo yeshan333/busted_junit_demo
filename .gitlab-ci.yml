@@ -1,0 +1,6 @@
+golang:
+  stage: test
+  artifacts:
+    when: always
+    reports:
+      junit: spec/busted_demo.spec.xml
