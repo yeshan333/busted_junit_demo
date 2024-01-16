@@ -19,4 +19,4 @@ jobs:
         uses: mikepenz/action-junit-report@v4.0.4
         with:
           report_paths: '**/*.xml'
-          token: ${{ secrets.PROJECT_TOKEN }}
+          token: ${{ github.token }}
