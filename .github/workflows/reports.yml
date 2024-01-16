@@ -9,7 +9,7 @@ permissions:
   checks: write
 
 jobs:
-  build:
+  get_junit_reports:
     name: serving junit reports
     runs-on: ubuntu-latest
     steps:
@@ -20,3 +20,12 @@ jobs:
         with:
           report_paths: '**/*.xml'
           token: ${{ github.token }}
+  get_junit_report_in_terminal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run Busted
+        uses: lunarmodules/busted@v2.2.0
+        with:
+          args: spec/*.spec.lua --output=junit --output junit
