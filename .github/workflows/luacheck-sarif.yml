@@ -36,7 +36,7 @@ jobs:
 
       - name: Run ‘luacheck’ (dogfood)
         continue-on-error: true
-        run: luacheck --formatter Sarif .
+        run: luacheck --formatter Sarif . > output.sarif
 
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v3
