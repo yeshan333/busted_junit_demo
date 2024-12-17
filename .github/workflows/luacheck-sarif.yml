@@ -31,9 +31,11 @@ jobs:
           cd luacheck
           luarocks install --deps-only luacheck-dev-1.rockspec
           luarocks make
+          cd ..
+          rm -rf luacheck
 
       - name: Run ‘luacheck’ (dogfood)
-        run: luacheck --formatter Sarif . > output.sarif
+        run: luacheck --formatter Sarif
 
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v3
