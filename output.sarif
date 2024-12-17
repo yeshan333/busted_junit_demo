@@ -1,0 +1,1317 @@
+{
+    "version": "2.1.0",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "E011",
+                    "message": {
+                        "text": "dump_table.lua:34:18: expected '=' near 'xx'"
+                    },
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 18
+                                },
+                                "artifactLocation": {
+                                    "uri": "dump_table.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W212",
+                    "message": {
+                        "text": "outputHandlers/junit_modified.lua:65:38: unused argument 'count'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 65,
+                                    "startColumn": 38
+                                },
+                                "artifactLocation": {
+                                    "uri": "outputHandlers/junit_modified.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W212",
+                    "message": {
+                        "text": "outputHandlers/junit_modified.lua:65:45: unused argument 'total'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 65,
+                                    "startColumn": 45
+                                },
+                                "artifactLocation": {
+                                    "uri": "outputHandlers/junit_modified.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W212",
+                    "message": {
+                        "text": "outputHandlers/junit_modified.lua:118:29: unused argument 'element'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 118,
+                                    "startColumn": 29
+                                },
+                                "artifactLocation": {
+                                    "uri": "outputHandlers/junit_modified.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W212",
+                    "message": {
+                        "text": "outputHandlers/junit_modified.lua:144:41: unused argument 'parent'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 144,
+                                    "startColumn": 41
+                                },
+                                "artifactLocation": {
+                                    "uri": "outputHandlers/junit_modified.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W212",
+                    "message": {
+                        "text": "outputHandlers/junit_modified.lua:195:37: unused argument 'parent'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 195,
+                                    "startColumn": 37
+                                },
+                                "artifactLocation": {
+                                    "uri": "outputHandlers/junit_modified.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W631",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:4:121: line is too long (298 > 120)"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 4,
+                                    "startColumn": 121
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:7:1: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 7,
+                                    "startColumn": 1
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:8:5: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 8,
+                                    "startColumn": 5
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:9:7: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 9,
+                                    "startColumn": 7
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:10:9: accessing undefined field 'truthy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:13:7: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 13,
+                                    "startColumn": 7
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:15:9: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 15,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:18:9: accessing undefined field 'are_not.equal' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 18,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:20:9: accessing undefined field 'truthy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 20,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:22:9: accessing undefined field 'True' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 22,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:23:9: accessing undefined field 'is_true' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:25:9: accessing undefined field 'falsy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 25,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:26:9: accessing undefined field 'has_error' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:27:9: accessing undefined field 'True' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 27,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:30:7: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 7
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:31:9: accessing undefined field 'are.unique' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 31,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:34:7: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 7
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:35:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 35,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:36:21: accessing undefined variable 'spy'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 21
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:41:11: accessing undefined field 'spy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 41,
+                                    "startColumn": 11
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:42:11: accessing undefined field 'spy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 42,
+                                    "startColumn": 11
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:43:11: accessing undefined field 'spy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 43,
+                                    "startColumn": 11
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/busted_demo.spec.lua:44:11: accessing undefined field 'spy' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 44,
+                                    "startColumn": 11
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/busted_demo.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:22:1: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 22,
+                                    "startColumn": 1
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:23:5: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 5
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:25:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 25,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:26:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:29:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:30:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:33:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:34:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:38:5: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 5
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:40:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 40,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:41:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 41,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:44:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 44,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:45:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 45,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:48:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 48,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:49:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 49,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:53:5: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 53,
+                                    "startColumn": 5
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:55:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 55,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:56:13: accessing undefined field 'is_nil' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 56,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:59:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 59,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:60:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 60,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:63:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 63,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:64:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 64,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:68:5: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 68,
+                                    "startColumn": 5
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:70:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 70,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:71:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 71,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:74:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 74,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:75:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 75,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:78:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 78,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:79:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 79,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:83:5: accessing undefined variable 'describe'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 83,
+                                    "startColumn": 5
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:85:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 85,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:86:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 86,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:89:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 89,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:90:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 90,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W113",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:93:9: accessing undefined variable 'it'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 93,
+                                    "startColumn": 9
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "W143",
+                    "message": {
+                        "text": "spec/get_junit_info.spec.lua:94:13: accessing undefined field 'are.same' of global 'assert'"
+                    },
+                    "level": "warning",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "region": {
+                                    "startLine": 94,
+                                    "startColumn": 13
+                                },
+                                "artifactLocation": {
+                                    "uri": "spec/get_junit_info.spec.lua"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "luacheck",
+                    "informationUri": "https://github.com/lunarmodules/luacheck",
+                    "version": "1.0.0"
+                }
+            }
+        }
+    ],
+    "$schema": "https://json.schemastore.org/sarif-2.1.0.json"
+}

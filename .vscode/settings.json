@@ -1,12 +1,13 @@
 // https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings
 {
-  "Lua.diagnostics.disable": [
-    "undefined-global",
-    "lowercase-global",
-    "cast-local-type",
-    "duplicate-set-field",
-    "missing-parameter"
-  ],
+  // "Lua.diagnostics.disable": [
+  //   "undefined-global",
+  //   "lowercase-global",
+  //   "cast-local-type",
+  //   "duplicate-set-field",
+  //   "missing-parameter",
+  //   "unused-local"
+  // ],
   "Lua.diagnostics.enable": true,
   // Lua ls settings: https://luals.github.io/wiki/settings/#workspacelibrary
   "Lua.workspace.library": [

@@ -31,6 +31,8 @@ local t = {
 
 print(dump(t))
 
+local xxx  qqq + xx
+
 --[[
 {
 string1,

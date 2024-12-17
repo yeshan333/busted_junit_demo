@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Luacheck report" tests="78">
+    <testcase name="dump_table.lua:1" classname="dump_table.lua">
+        <failure type="E011" message="dump_table.lua:34:18: expected &apos;=&apos; near &apos;xx&apos;"/>
+    </testcase>
+    <testcase name="outputHandlers/junit_modified.lua:1" classname="outputHandlers/junit_modified.lua">
+        <failure type="W212" message="outputHandlers/junit_modified.lua:65:38: unused argument &apos;count&apos;"/>
+    </testcase>
+    <testcase name="outputHandlers/junit_modified.lua:2" classname="outputHandlers/junit_modified.lua">
+        <failure type="W212" message="outputHandlers/junit_modified.lua:65:45: unused argument &apos;total&apos;"/>
+    </testcase>
+    <testcase name="outputHandlers/junit_modified.lua:3" classname="outputHandlers/junit_modified.lua">
+        <failure type="W212" message="outputHandlers/junit_modified.lua:118:29: unused argument &apos;element&apos;"/>
+    </testcase>
+    <testcase name="outputHandlers/junit_modified.lua:4" classname="outputHandlers/junit_modified.lua">
+        <failure type="W212" message="outputHandlers/junit_modified.lua:144:41: unused argument &apos;parent&apos;"/>
+    </testcase>
+    <testcase name="outputHandlers/junit_modified.lua:5" classname="outputHandlers/junit_modified.lua">
+        <failure type="W212" message="outputHandlers/junit_modified.lua:195:37: unused argument &apos;parent&apos;"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:1" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:6:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:2" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:20:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:3" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:24:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:4" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:27:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:5" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:31:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:6" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:38:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:7" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:50:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:8" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:57:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:9" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:61:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:10" classname="sarif_formater/init.lua">
+        <failure type="W212" message="sarif_formater/init.lua:79:38: unused argument &apos;options&apos;"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:11" classname="sarif_formater/init.lua">
+        <failure type="W213" message="sarif_formater/init.lua:103:12: unused loop variable &apos;event_i&apos;"/>
+    </testcase>
+    <testcase name="sarif_formater/init.lua:12" classname="sarif_formater/init.lua">
+        <failure type="W611" message="sarif_formater/init.lua:126:1: line contains only whitespace"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:1" classname="spec/busted_demo.spec.lua">
+        <failure type="W631" message="spec/busted_demo.spec.lua:4:121: line is too long (298 &gt; 120)"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:2" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:7:1: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:3" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:8:5: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:4" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:9:7: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:5" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:10:9: accessing undefined field &apos;truthy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:6" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:13:7: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:7" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:15:9: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:8" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:18:9: accessing undefined field &apos;are_not.equal&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:9" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:20:9: accessing undefined field &apos;truthy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:10" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:22:9: accessing undefined field &apos;True&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:11" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:23:9: accessing undefined field &apos;is_true&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:12" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:25:9: accessing undefined field &apos;falsy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:13" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:26:9: accessing undefined field &apos;has_error&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:14" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:27:9: accessing undefined field &apos;True&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:15" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:30:7: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:16" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:31:9: accessing undefined field &apos;are.unique&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:17" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:34:7: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:18" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:35:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:19" classname="spec/busted_demo.spec.lua">
+        <failure type="W113" message="spec/busted_demo.spec.lua:36:21: accessing undefined variable &apos;spy&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:20" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:41:11: accessing undefined field &apos;spy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:21" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:42:11: accessing undefined field &apos;spy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:22" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:43:11: accessing undefined field &apos;spy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/busted_demo.spec.lua:23" classname="spec/busted_demo.spec.lua">
+        <failure type="W143" message="spec/busted_demo.spec.lua:44:11: accessing undefined field &apos;spy&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:1" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:22:1: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:2" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:23:5: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:3" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:25:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:4" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:26:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:5" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:29:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:6" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:30:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:7" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:33:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:8" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:34:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:9" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:38:5: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:10" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:40:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:11" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:41:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:12" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:44:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:13" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:45:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:14" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:48:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:15" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:49:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:16" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:53:5: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:17" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:55:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:18" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:56:13: accessing undefined field &apos;is_nil&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:19" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:59:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:20" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:60:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:21" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:63:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:22" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:64:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:23" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:68:5: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:24" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:70:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:25" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:71:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:26" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:74:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:27" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:75:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:28" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:78:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:29" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:79:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:30" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:83:5: accessing undefined variable &apos;describe&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:31" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:85:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:32" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:86:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:33" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:89:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:34" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:90:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:35" classname="spec/get_junit_info.spec.lua">
+        <failure type="W113" message="spec/get_junit_info.spec.lua:93:9: accessing undefined variable &apos;it&apos;"/>
+    </testcase>
+    <testcase name="spec/get_junit_info.spec.lua:36" classname="spec/get_junit_info.spec.lua">
+        <failure type="W143" message="spec/get_junit_info.spec.lua:94:13: accessing undefined field &apos;are.same&apos; of global &apos;assert&apos;"/>
+    </testcase>
+    <testcase name="src/dump_busted_struct.lua" classname="src/dump_busted_struct.lua"/>
+</testsuite>

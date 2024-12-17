@@ -1,0 +1,725 @@
+dump_table.lua
+{
+{
+[msg] = expected '=' near 'xx',
+[code] = 011,
+[column] = 18,
+[end_column] = 19,
+[line] = 34
+          },
+[filename] = dump_table.lua
+        }
+outputHandlers/junit_modified.lua
+{
+{
+[code] = 212,
+[line] = 65,
+[name] = count,
+[column] = 38,
+[end_column] = 42
+          },
+{
+[code] = 212,
+[line] = 65,
+[name] = total,
+[column] = 45,
+[end_column] = 49
+          },
+{
+[code] = 212,
+[line] = 118,
+[name] = element,
+[column] = 29,
+[end_column] = 35
+          },
+{
+[code] = 212,
+[line] = 144,
+[name] = parent,
+[column] = 41,
+[end_column] = 46
+          },
+{
+[code] = 212,
+[line] = 195,
+[name] = parent,
+[column] = 37,
+[end_column] = 42
+          },
+[filename] = outputHandlers/junit_modified.lua
+        }
+sarif_formater/init.lua
+{
+{
+[code] = 211,
+[end_column] = 10,
+[name] = Json,
+[line] = 1,
+[column] = 7
+          },
+{
+[column] = 1,
+[code] = 611,
+[line] = 5,
+[end_column] = 1
+          },
+{
+[column] = 1,
+[code] = 611,
+[line] = 15,
+[end_column] = 1
+          },
+{
+[column] = 1,
+[code] = 611,
+[line] = 22,
+[end_column] = 1
+          },
+[filename] = sarif_formater/init.lua
+        }
+sarif_formater/sarif-outputter/init.lua
+{
+[filename] = sarif_formater/sarif-outputter/init.lua
+        }
+sarif_formater/sarif-outputter/src/main.lua
+{
+[filename] = sarif_formater/sarif-outputter/src/main.lua
+        }
+sarif_formater/sarif-outputter/src/sarif/decoder.lua
+{
+[filename] = sarif_formater/sarif-outputter/src/sarif/decoder.lua
+        }
+sarif_formater/sarif-outputter/src/sarif/encoder.lua
+{
+[filename] = sarif_formater/sarif-outputter/src/sarif/encoder.lua
+        }
+sarif_formater/sarif-outputter/tests/test_decoder.lua
+{
+[filename] = sarif_formater/sarif-outputter/tests/test_decoder.lua
+        }
+sarif_formater/sarif-outputter/tests/test_encoder.lua
+{
+{
+[code] = 113,
+[line] = 3,
+[name] = describe,
+[column] = 1,
+[end_column] = 8
+          },
+{
+[code] = 113,
+[line] = 4,
+[name] = it,
+[column] = 5,
+[end_column] = 6
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 36,
+[name] = assert,
+[field] = are.equal,
+[end_column] = 14,
+[indexing] = {
+are,
+equal
+            }
+          },
+{
+[code] = 113,
+[line] = 39,
+[name] = it,
+[column] = 5,
+[end_column] = 6
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 42,
+[name] = assert,
+[field] = is_false,
+[end_column] = 14,
+[indexing] = {
+is_false
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 43,
+[name] = assert,
+[field] = is_string,
+[end_column] = 14,
+[indexing] = {
+is_string
+            }
+          },
+[filename] = sarif_formater/sarif-outputter/tests/test_encoder.lua
+        }
+spec/busted_demo.spec.lua
+{
+{
+[code] = 631,
+[line] = 4,
+[line_ending] = comment,
+[max_length] = 120,
+[end_column] = 298,
+[column] = 121
+          },
+{
+[code] = 113,
+[line] = 7,
+[name] = describe,
+[column] = 1,
+[end_column] = 8
+          },
+{
+[code] = 113,
+[line] = 8,
+[name] = describe,
+[column] = 5,
+[end_column] = 12
+          },
+{
+[code] = 113,
+[line] = 9,
+[name] = it,
+[column] = 7,
+[end_column] = 8
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 10,
+[name] = assert,
+[field] = truthy,
+[end_column] = 14,
+[indexing] = {
+truthy
+            }
+          },
+{
+[code] = 113,
+[line] = 13,
+[name] = it,
+[column] = 7,
+[end_column] = 8
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 15,
+[name] = assert,
+[field] = are.same,
+[end_column] = 14,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 18,
+[name] = assert,
+[field] = are_not.equal,
+[end_column] = 14,
+[indexing] = {
+are_not,
+equal
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 20,
+[name] = assert,
+[field] = truthy,
+[end_column] = 14,
+[indexing] = {
+truthy
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 22,
+[name] = assert,
+[field] = True,
+[end_column] = 14,
+[indexing] = {
+True
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 23,
+[name] = assert,
+[field] = is_true,
+[end_column] = 14,
+[indexing] = {
+is_true
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 25,
+[name] = assert,
+[field] = falsy,
+[end_column] = 14,
+[indexing] = {
+falsy
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 26,
+[name] = assert,
+[field] = has_error,
+[end_column] = 14,
+[indexing] = {
+has_error
+            }
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 27,
+[name] = assert,
+[field] = True,
+[end_column] = 14,
+[indexing] = {
+True
+            }
+          },
+{
+[code] = 113,
+[line] = 30,
+[name] = it,
+[column] = 7,
+[end_column] = 8
+          },
+{
+[code] = 143,
+[column] = 9,
+[line] = 31,
+[name] = assert,
+[field] = are.unique,
+[end_column] = 14,
+[indexing] = {
+are,
+unique
+            }
+          },
+{
+[code] = 113,
+[line] = 34,
+[name] = describe,
+[column] = 7,
+[end_column] = 14
+          },
+{
+[code] = 113,
+[line] = 35,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 113,
+[line] = 36,
+[name] = spy,
+[column] = 21,
+[end_column] = 23,
+[indexing] = {
+new
+            }
+          },
+{
+[code] = 143,
+[column] = 11,
+[line] = 41,
+[name] = assert,
+[field] = spy,
+[end_column] = 16,
+[indexing] = {
+spy
+            }
+          },
+{
+[code] = 143,
+[column] = 11,
+[line] = 42,
+[name] = assert,
+[field] = spy,
+[end_column] = 16,
+[indexing] = {
+spy
+            }
+          },
+{
+[code] = 143,
+[column] = 11,
+[line] = 43,
+[name] = assert,
+[field] = spy,
+[end_column] = 16,
+[indexing] = {
+spy
+            }
+          },
+{
+[code] = 143,
+[column] = 11,
+[line] = 44,
+[name] = assert,
+[field] = spy,
+[end_column] = 16,
+[indexing] = {
+spy
+            }
+          },
+[filename] = spec/busted_demo.spec.lua
+        }
+spec/get_junit_info.spec.lua
+{
+{
+[code] = 113,
+[line] = 22,
+[name] = describe,
+[column] = 1,
+[end_column] = 8
+          },
+{
+[code] = 113,
+[line] = 23,
+[name] = describe,
+[column] = 5,
+[end_column] = 12
+          },
+{
+[code] = 113,
+[line] = 25,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 26,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 29,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 30,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 33,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 34,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 38,
+[name] = describe,
+[column] = 5,
+[end_column] = 12
+          },
+{
+[code] = 113,
+[line] = 40,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 41,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 44,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 45,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 48,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 49,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 53,
+[name] = describe,
+[column] = 5,
+[end_column] = 12
+          },
+{
+[code] = 113,
+[line] = 55,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 56,
+[name] = assert,
+[field] = is_nil,
+[end_column] = 18,
+[indexing] = {
+is_nil
+            }
+          },
+{
+[code] = 113,
+[line] = 59,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 60,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 63,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 64,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 68,
+[name] = describe,
+[column] = 5,
+[end_column] = 12
+          },
+{
+[code] = 113,
+[line] = 70,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 71,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 74,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 75,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 78,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 79,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 83,
+[name] = describe,
+[column] = 5,
+[end_column] = 12
+          },
+{
+[code] = 113,
+[line] = 85,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 86,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 89,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 90,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+{
+[code] = 113,
+[line] = 93,
+[name] = it,
+[column] = 9,
+[end_column] = 10
+          },
+{
+[code] = 143,
+[column] = 13,
+[line] = 94,
+[name] = assert,
+[field] = are.same,
+[end_column] = 18,
+[indexing] = {
+are,
+same
+            }
+          },
+[filename] = spec/get_junit_info.spec.lua
+        }
+src/dump_busted_struct.lua
+{
+[filename] = src/dump_busted_struct.lua
+        }
+ Files: 12
+ Formatter: sarif_formater
+ Quiet: 0
+ Color: true
+ Codes: false
