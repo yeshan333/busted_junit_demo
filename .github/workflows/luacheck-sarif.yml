@@ -35,6 +35,7 @@ jobs:
           rm -rf luacheck
 
       - name: Run ‘luacheck’ (dogfood)
+        continue-on-error: true
         run: luacheck --formatter Sarif .
 
       - name: Upload SARIF file
